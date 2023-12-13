@@ -28,10 +28,9 @@ import matplotlib.pyplot as plt
 import datetime
 
 # Set up Reddit API credentials
-client_id = 'Si6w3dANV7wSwvmf3zj0Rg'
-client_secret = 'O8r9Znu6azfUWhC8f2L4NxO524-jow'
-user_agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36'
-
+client_id = #Enter your credentials
+client_secret = #Enter your credentials
+user_agent = #Enter your credentials
 
 # Set up DistilBERT tokenizer and model
 tokenizer = DistilBertTokenizerFast.from_pretrained("distilbert-base-uncased")
